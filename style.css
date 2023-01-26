@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    width: 80%;
+    margin-top: 8%;
+}
+
+.panel-gauche {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFAFA;
+}
+
+.panel-gauche h2 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=email],
+input[type=password] {
+    height: 35px;
+    width: auto;
+    background-color: #EEEEEE;
+    margin: 10px 0 10px 0;
+    padding-left: 10px;
+    border: none;
+}
+
+.remember-password-panel {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox] {
+    border: 1px thin grey;
+}
+
+label {
+    font-size: 15px;
+    color: grey;
+}
+
+.remember-password-panel a {
+    text-decoration: none;
+    color: grey;
+}
+
+form button {
+    background-color: #9C27B0;
+    height: 30px;
+    color: white;
+    border: none;
+    font-weight: bold;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.connect-with {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.divider {
+    width: 25%;
+    border-bottom: 1px solid grey;
+}
+
+.connect-logo {
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    align-self: center;
+    color: grey;
+    font-size: 25px;
+}
+
+.copyright{
+    color: grey;
+    font-size: 15px;
+}
+
+.panel-droit {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #20212C, #9826AC);
+}
+
+.title-icon{
+    color: white;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.title-icon i{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.panel-droit span{
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: lighter;
+    text-align: center;
+    width: 300px;
+}
+
+.panel-droit button{
+    border-radius: 25px;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 15px;
+}
